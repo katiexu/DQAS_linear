@@ -1,8 +1,12 @@
-# DQAS_linear
-## Use DQAS method to run PennyLane linear separable 16d dataset.
+# Q-MCTS
+This repository contains the code for paper, Recognizing Good Variational Quantum Circuits with Monte Carlo Tree Search.
+```
+Dependencies we use in experiments:
 
-Run **DQAS01.py** to execute the code and to obtain results.
+numpy == 1.21.5
+scikit-learn == 1.1.1
+pytorch == 2.0.1
+pennylane == 0.31.0
 
-The **main** branch uses 20 quantum gates, equivalent to 60 parameters.
-
-The **parameters_120** branch uses 40 quantum gates, equivalent to 120 parameters.
+Different package versions may produce inconsistent results.
+```
