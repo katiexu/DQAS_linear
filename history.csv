@@ -1,81 +1,201 @@
 epoch, loss, test_acc, cand
-0,0.65940124,0.6166666666666667,I u3 I data u3 I u3 I data I data u3 data data u3 data u3 data u3 data
-1,0.670206,0.5666666666666667,cu3 u3 cu3 u3 cu3 data I data I cu3 I u3 u3 u3 cu3 data u3 cu3 u3 data
-2,0.67637813,0.65,cu3 u3 cu3 u3 u3 I data I data cu3 I cu3 u3 u3 cu3 data u3 I I data
-3,0.6847298,0.5666666666666667,cu3 u3 cu3 u3 u3 I data I data cu3 I data cu3 u3 cu3 cu3 u3 u3 I data
-4,0.6764786,0.6,cu3 u3 cu3 u3 u3 I data I data cu3 I cu3 cu3 u3 cu3 cu3 u3 u3 I data
-5,0.69017106,0.6333333333333333,cu3 data cu3 u3 u3 I I I data cu3 I I cu3 u3 cu3 cu3 u3 u3 I u3
-6,0.66474706,0.5833333333333334,cu3 data cu3 u3 u3 I I I data cu3 I I cu3 u3 cu3 cu3 u3 cu3 I u3
-7,0.68451744,0.6,cu3 u3 cu3 u3 u3 I I I data cu3 I I cu3 u3 cu3 cu3 data cu3 I u3
-8,0.66870886,0.65,cu3 u3 cu3 u3 u3 I I I I cu3 I I cu3 u3 cu3 cu3 u3 cu3 I u3
-9,0.6272229,0.6833333333333333,cu3 u3 cu3 u3 u3 I I data I cu3 I I cu3 u3 cu3 cu3 data cu3 I u3
-10,0.67987484,0.6166666666666667,cu3 u3 cu3 u3 u3 I I data I cu3 I I cu3 u3 u3 cu3 data cu3 I u3
-11,0.6738788,0.6,cu3 u3 cu3 u3 u3 I I data I cu3 I I cu3 u3 u3 cu3 data cu3 I u3
-12,0.68620193,0.6333333333333333,cu3 u3 cu3 u3 u3 I I data I cu3 I I cu3 u3 u3 cu3 data cu3 I u3
-13,0.6552745,0.6833333333333333,cu3 u3 cu3 u3 u3 data I data I cu3 I I cu3 u3 u3 cu3 data cu3 data u3
-14,0.68222326,0.6333333333333333,cu3 u3 cu3 u3 u3 data I data I cu3 I I cu3 u3 u3 cu3 data cu3 data u3
-15,0.6868426,0.6,cu3 u3 cu3 u3 u3 data I data I cu3 I I cu3 u3 u3 cu3 data cu3 data u3
-16,0.6932272,0.55,cu3 u3 cu3 u3 u3 data I data I cu3 I I cu3 u3 u3 cu3 data cu3 data I
-17,0.67434746,0.6166666666666667,cu3 u3 cu3 u3 u3 data I I I cu3 I I cu3 u3 u3 data data cu3 data I
-18,0.66747224,0.65,cu3 u3 cu3 u3 u3 data I I I cu3 I I cu3 data u3 data data cu3 data I
-19,0.6854626,0.6,cu3 u3 cu3 u3 u3 data I I I u3 I I cu3 data u3 data u3 cu3 data u3
-20,0.67775667,0.65,cu3 u3 cu3 u3 u3 data I I I I I I cu3 data u3 data u3 cu3 data u3
-21,0.6659215,0.6666666666666666,cu3 u3 cu3 u3 u3 data I I I I I I cu3 data u3 data u3 cu3 data u3
-22,0.6846443,0.6333333333333333,cu3 u3 cu3 u3 u3 data data I I I I I cu3 data u3 data u3 cu3 data u3
-23,0.67620844,0.6333333333333333,cu3 u3 cu3 u3 u3 data data I I I I I cu3 data u3 data u3 cu3 data u3
-24,0.66252846,0.6333333333333333,cu3 u3 cu3 u3 u3 data u3 I I I I I cu3 data u3 data u3 cu3 data u3
-25,0.66745514,0.6166666666666667,cu3 u3 cu3 u3 u3 data u3 I I I I I cu3 data u3 data u3 cu3 data u3
-26,0.69675416,0.5833333333333334,cu3 u3 cu3 u3 u3 data u3 I I I I I cu3 data u3 data u3 cu3 data u3
-27,0.67990935,0.5833333333333334,cu3 u3 cu3 u3 u3 data u3 I I I I I cu3 data u3 data data cu3 data u3
-28,0.67582476,0.5833333333333334,cu3 u3 cu3 u3 u3 data u3 I I I I I cu3 data u3 data data cu3 data u3
-29,0.6870982,0.5833333333333334,cu3 u3 cu3 u3 u3 cu3 u3 I I I I I cu3 data u3 data data cu3 data u3
-30,0.670385,0.6,cu3 u3 cu3 u3 u3 data u3 I I I I I cu3 data u3 data data cu3 data u3
-31,0.6649635,0.6333333333333333,cu3 u3 cu3 u3 u3 data u3 I I I I I cu3 data u3 data data cu3 data u3
-32,0.6384794,0.6333333333333333,cu3 data cu3 u3 u3 data u3 I I I I I cu3 data u3 data data cu3 data u3
-33,0.6897424,0.55,cu3 data cu3 u3 u3 data u3 I I u3 I I cu3 data u3 data data cu3 data u3
-34,0.6636722,0.6666666666666666,cu3 data cu3 u3 u3 data u3 I I u3 I I cu3 data u3 cu3 data cu3 data u3
-35,0.6818665,0.6166666666666667,cu3 data cu3 u3 u3 data u3 I I u3 I I cu3 data u3 cu3 data cu3 I u3
-36,0.7024953,0.5833333333333334,cu3 u3 cu3 u3 u3 data u3 I I u3 I I cu3 data u3 cu3 data cu3 I u3
-37,0.68871,0.5666666666666667,cu3 u3 cu3 u3 u3 data u3 I I u3 I I cu3 data u3 cu3 data cu3 I u3
-38,0.678845,0.6,cu3 u3 cu3 u3 u3 data u3 I I u3 I I cu3 data u3 cu3 u3 cu3 I u3
-39,0.69678885,0.6166666666666667,cu3 u3 cu3 u3 u3 data u3 I I u3 I I cu3 data cu3 cu3 u3 cu3 I u3
-40,0.67978656,0.55,cu3 data cu3 u3 u3 data u3 I u3 u3 I I cu3 data cu3 data u3 cu3 I u3
-41,0.67978925,0.6,cu3 data cu3 u3 u3 data u3 I u3 u3 I I cu3 data cu3 data u3 cu3 I u3
-42,0.68589383,0.6166666666666667,cu3 data cu3 u3 u3 data u3 I u3 u3 I I cu3 data cu3 data u3 cu3 I u3
-43,0.6813982,0.6166666666666667,cu3 data cu3 u3 u3 data u3 I u3 u3 I I cu3 data cu3 data u3 cu3 I u3
-44,0.6742085,0.5833333333333334,cu3 data cu3 u3 u3 data u3 I u3 u3 u3 I cu3 data cu3 data u3 cu3 I u3
-45,0.6764548,0.5666666666666667,cu3 data cu3 u3 u3 data u3 I u3 u3 u3 I cu3 data cu3 data u3 cu3 I u3
-46,0.6869108,0.6166666666666667,cu3 data cu3 u3 u3 data u3 I u3 u3 u3 I cu3 data cu3 data u3 cu3 I u3
-47,0.6815632,0.5666666666666667,cu3 u3 cu3 u3 u3 data u3 I u3 u3 u3 I cu3 data cu3 data u3 cu3 I u3
-48,0.6522327,0.6833333333333333,cu3 data cu3 u3 u3 data u3 I u3 u3 u3 I cu3 data cu3 data u3 cu3 I u3
-49,0.659262,0.65,cu3 data cu3 u3 u3 data u3 I u3 u3 u3 I cu3 data cu3 data u3 cu3 I u3
-50,0.67005926,0.6166666666666667,cu3 data cu3 u3 u3 data u3 I u3 u3 u3 I cu3 data u3 data u3 cu3 I u3
-51,0.67931163,0.6,cu3 data cu3 u3 u3 data u3 I u3 u3 u3 I cu3 data u3 data u3 cu3 I u3
-52,0.62233853,0.6833333333333333,cu3 data cu3 u3 u3 data u3 I u3 u3 u3 I cu3 data u3 data u3 cu3 I u3
-53,0.6793936,0.6333333333333333,cu3 u3 cu3 u3 u3 data u3 I u3 u3 u3 I cu3 data u3 data u3 cu3 I u3
-54,0.70138574,0.6333333333333333,cu3 u3 cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 data u3 cu3 I u3
-55,0.6751164,0.6333333333333333,cu3 u3 cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 data u3 cu3 I u3
-56,0.66647834,0.7,cu3 u3 cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 data u3 cu3 I u3
-57,0.66945535,0.5833333333333334,cu3 u3 cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 data u3 cu3 I u3
-58,0.6840296,0.6,cu3 u3 cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 data u3 cu3 I u3
-59,0.6685132,0.5833333333333334,cu3 I cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 data u3 cu3 I u3
-60,0.67476016,0.6333333333333333,cu3 I cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 data I cu3 I u3
-61,0.66016495,0.6,cu3 I cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 data I cu3 I u3
-62,0.669831,0.6,cu3 I cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 data I cu3 I u3
-63,0.65696794,0.6833333333333333,cu3 I cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 data I cu3 I u3
-64,0.67434615,0.6166666666666667,cu3 I cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 data I cu3 I u3
-65,0.6902153,0.6,cu3 I cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 cu3 I cu3 I u3
-66,0.6607391,0.6,cu3 I cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 cu3 I cu3 I u3
-67,0.67148525,0.6166666666666667,cu3 I cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 cu3 I cu3 I u3
-68,0.67189807,0.6,cu3 u3 cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 cu3 I cu3 I u3
-69,0.6796465,0.6666666666666666,cu3 u3 cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 cu3 I cu3 I u3
-70,0.70284516,0.5833333333333334,cu3 u3 cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 cu3 u3 cu3 I data
-71,0.681682,0.5666666666666667,cu3 u3 cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 cu3 u3 cu3 I data
-72,0.66103536,0.65,cu3 u3 cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 cu3 u3 cu3 I data
-73,0.6994937,0.5833333333333334,cu3 u3 cu3 u3 u3 u3 u3 data u3 u3 cu3 I cu3 data u3 cu3 u3 cu3 I data
-74,0.67776334,0.6,cu3 u3 cu3 u3 u3 u3 u3 data u3 u3 u3 I cu3 data u3 cu3 u3 cu3 I data
-75,0.67734104,0.6333333333333333,cu3 u3 cu3 u3 I u3 u3 data u3 u3 u3 I cu3 data u3 cu3 u3 cu3 I data
-76,0.66389996,0.6,cu3 I cu3 u3 I u3 u3 data u3 u3 u3 I cu3 data u3 cu3 u3 cu3 I data
-77,0.6710943,0.6333333333333333,cu3 I cu3 u3 I u3 u3 data u3 u3 u3 I cu3 data u3 cu3 u3 cu3 I data
-78,0.66427964,0.65,cu3 I cu3 u3 I u3 u3 data u3 u3 u3 I cu3 data u3 data u3 cu3 I data
-79,0.68329966,0.65,cu3 I cu3 u3 I u3 u3 data u3 u3 u3 I cu3 data u3 data u3 cu3 I data
+0,0.6930071,0.55,I data I data I data data data data I data data
+1,0.6957064,0.48333333333333334,data data cu3 data u3 data cu3 u3 u3 I u3 data
+2,0.7088865,0.5333333333333333,u3 data cu3 cu3 u3 data cu3 u3 data I u3 data
+3,0.72308254,0.5333333333333333,u3 data cu3 cu3 u3 u3 cu3 u3 data I u3 data
+4,0.7560698,0.5,u3 data cu3 cu3 I u3 cu3 u3 data I u3 data
+5,0.7146692,0.65,u3 data cu3 cu3 I u3 cu3 u3 data I data data
+6,0.7081757,0.5333333333333333,data I cu3 cu3 I u3 cu3 u3 u3 I data data
+7,0.69703454,0.55,data I cu3 cu3 I u3 cu3 u3 u3 I data data
+8,0.72028214,0.6,data I cu3 cu3 I u3 cu3 u3 u3 I data data
+9,0.6784238,0.6166666666666667,data I cu3 cu3 I u3 cu3 u3 u3 I data data
+10,0.7356009,0.5333333333333333,data I cu3 I I u3 cu3 u3 u3 I data data
+11,0.6999628,0.5666666666666667,data I cu3 I I u3 cu3 u3 u3 I data data
+12,0.7107098,0.5666666666666667,data I cu3 I I u3 cu3 u3 u3 I data data
+13,0.73530847,0.5666666666666667,data data cu3 I cu3 u3 cu3 u3 u3 I data data
+14,0.7609035,0.48333333333333334,data data cu3 I cu3 u3 cu3 u3 u3 I data data
+15,0.71157575,0.55,data data cu3 I cu3 u3 cu3 u3 data I data data
+16,0.677242,0.6,data data cu3 I cu3 u3 cu3 u3 u3 I data data
+17,0.6931517,0.5666666666666667,data data cu3 I cu3 u3 cu3 u3 u3 I data data
+18,0.69442827,0.55,data data cu3 I cu3 u3 cu3 u3 u3 I data data
+19,0.6753221,0.6166666666666667,data data cu3 I I u3 cu3 u3 u3 I data data
+20,0.6929091,0.55,u3 data cu3 u3 I u3 cu3 u3 u3 I data data
+21,0.6323443,0.7166666666666667,data data cu3 u3 I u3 cu3 u3 u3 I data data
+22,0.6718144,0.65,u3 data cu3 u3 I u3 cu3 u3 u3 I data data
+23,0.6593417,0.5833333333333334,u3 data cu3 u3 I u3 cu3 u3 u3 I data data
+24,0.65322703,0.6666666666666666,u3 data cu3 u3 I u3 cu3 u3 u3 I data data
+25,0.6917867,0.5833333333333334,u3 data cu3 I I u3 cu3 u3 u3 I data data
+26,0.6884223,0.6166666666666667,u3 data cu3 I I data cu3 u3 u3 I data data
+27,0.6718393,0.6166666666666667,u3 data cu3 I I data cu3 u3 u3 I data data
+28,0.67617404,0.65,u3 data cu3 I I data cu3 u3 u3 I data data
+29,0.672965,0.65,u3 data cu3 I I data cu3 data u3 I data data
+30,0.6898903,0.5666666666666667,u3 data cu3 I I data cu3 data u3 I data data
+31,0.6676082,0.6666666666666666,u3 data I I I data cu3 data u3 I data data
+32,0.6874714,0.5833333333333334,u3 data cu3 I I data cu3 data u3 I data data
+33,0.62453866,0.65,u3 data cu3 I I data cu3 data u3 I data data
+34,0.6904188,0.6333333333333333,u3 data cu3 I I data cu3 data u3 I data data
+35,0.6854753,0.6,u3 data cu3 I I data cu3 data u3 I data data
+36,0.68326455,0.55,u3 data cu3 I I data cu3 data u3 I data data
+37,0.6674759,0.5833333333333334,u3 data cu3 I I data cu3 data u3 I cu3 data
+38,0.6758449,0.6,u3 data cu3 I I data cu3 u3 u3 I cu3 data
+39,0.7033025,0.6,u3 data cu3 I I data cu3 u3 u3 I cu3 data
+40,0.6644966,0.65,u3 data cu3 I I data cu3 u3 u3 I cu3 data
+41,0.66524523,0.65,u3 data cu3 I I data cu3 u3 u3 I cu3 data
+42,0.6532431,0.5666666666666667,u3 data cu3 I I data cu3 u3 u3 I cu3 data
+43,0.67144257,0.6666666666666666,u3 data cu3 I I data cu3 u3 u3 I cu3 data
+44,0.67703855,0.6333333333333333,u3 data cu3 I I data cu3 u3 u3 I cu3 data
+45,0.6816232,0.5833333333333334,u3 data cu3 I I data cu3 u3 u3 I cu3 data
+46,0.660945,0.6,u3 data cu3 I I data cu3 u3 u3 I cu3 data
+47,0.67010045,0.6166666666666667,u3 data cu3 I I data cu3 u3 u3 I u3 data
+48,0.6923983,0.6,u3 data cu3 I I data cu3 u3 u3 I u3 data
+49,0.67581856,0.6166666666666667,u3 data cu3 I I data cu3 u3 u3 I u3 cu3
+50,0.6655557,0.6833333333333333,u3 data cu3 I I data cu3 u3 u3 I u3 cu3
+51,0.6935224,0.55,u3 data cu3 I I data cu3 u3 u3 I u3 cu3
+52,0.6793062,0.5833333333333334,u3 data cu3 I I data cu3 u3 u3 I u3 cu3
+53,0.7006397,0.5833333333333334,u3 data cu3 I I data cu3 u3 u3 I cu3 cu3
+54,0.6960491,0.6333333333333333,u3 data cu3 I I data cu3 u3 u3 I data cu3
+55,0.6804724,0.6666666666666666,u3 data cu3 I I data cu3 u3 u3 I data cu3
+56,0.6934825,0.55,u3 data cu3 I I data cu3 u3 u3 I data cu3
+57,0.6690608,0.65,u3 data cu3 I I data cu3 u3 u3 I data cu3
+58,0.6821444,0.5666666666666667,u3 data cu3 I I data cu3 u3 u3 I data cu3
+59,0.70647997,0.5333333333333333,u3 data cu3 I I data cu3 u3 u3 I data cu3
+60,0.6790142,0.6,u3 data cu3 I I data cu3 u3 u3 I data cu3
+61,0.69459164,0.5666666666666667,u3 data cu3 I I data cu3 u3 u3 I data cu3
+62,0.6523704,0.65,u3 data cu3 I I data cu3 u3 u3 I data cu3
+63,0.66993207,0.6,u3 data cu3 I I data cu3 u3 u3 I data cu3
+64,0.6753724,0.6,u3 data cu3 I I data cu3 u3 u3 I data cu3
+65,0.67482746,0.6833333333333333,u3 data cu3 I I data cu3 u3 u3 I data cu3
+66,0.6869592,0.5666666666666667,u3 data cu3 I u3 data cu3 u3 u3 I data cu3
+67,0.68146336,0.65,u3 data cu3 I u3 data cu3 u3 u3 data data cu3
+68,0.67388827,0.6,u3 data cu3 I u3 data cu3 u3 u3 data data cu3
+69,0.70864314,0.5833333333333334,u3 data cu3 I u3 data cu3 u3 u3 data data cu3
+70,0.6773518,0.55,u3 data cu3 I u3 data cu3 u3 u3 I data cu3
+71,0.67158395,0.6,u3 data cu3 I u3 data cu3 u3 u3 I data cu3
+72,0.6628034,0.6,u3 data cu3 I u3 data cu3 u3 u3 I data data
+73,0.6381508,0.6166666666666667,u3 data cu3 I u3 data cu3 u3 u3 I data data
+74,0.67986834,0.55,u3 data cu3 I u3 data cu3 u3 u3 I data data
+75,0.63571054,0.6833333333333333,u3 data cu3 I u3 data cu3 u3 u3 I data data
+76,0.680364,0.5666666666666667,u3 data cu3 I u3 data cu3 u3 u3 I data data
+77,0.678099,0.6333333333333333,u3 data cu3 I u3 data cu3 u3 u3 I data data
+78,0.64667314,0.65,u3 data cu3 I u3 data cu3 u3 u3 I data data
+79,0.6851548,0.5833333333333334,u3 data cu3 I u3 data cu3 u3 u3 I data data
+80,0.683257,0.6,u3 data cu3 I u3 data cu3 u3 u3 I data data
+81,0.6603183,0.6666666666666666,u3 data cu3 I u3 data cu3 u3 u3 I data data
+82,0.65401167,0.6166666666666667,u3 data cu3 I u3 data cu3 u3 u3 I data data
+83,0.66989434,0.65,u3 data cu3 I u3 data cu3 u3 u3 I data data
+84,0.66243684,0.65,u3 data cu3 I u3 data cu3 u3 u3 I data data
+85,0.68132377,0.6166666666666667,u3 data cu3 I u3 data cu3 I u3 I data data
+86,0.6628865,0.6333333333333333,u3 data cu3 I I data cu3 I u3 I data data
+87,0.6619959,0.65,u3 data cu3 I I data cu3 I u3 I data data
+88,0.67871296,0.5666666666666667,u3 data cu3 I I data cu3 u3 u3 I data data
+89,0.6611624,0.6,u3 data cu3 I I data cu3 u3 u3 data data data
+90,0.6501644,0.6666666666666666,u3 data cu3 I I data cu3 u3 u3 data data data
+91,0.6893704,0.5666666666666667,u3 data cu3 I I data cu3 u3 u3 data data data
+92,0.63612276,0.6666666666666666,u3 data cu3 I I data cu3 u3 u3 data data data
+93,0.66317385,0.6333333333333333,u3 data cu3 I I data cu3 u3 u3 cu3 data data
+94,0.6789488,0.6,u3 data cu3 I I data cu3 u3 u3 cu3 data data
+95,0.6321884,0.5833333333333334,u3 data cu3 I I data cu3 u3 u3 cu3 data data
+96,0.6961426,0.5666666666666667,u3 data cu3 I I data cu3 u3 u3 cu3 data data
+97,0.6802537,0.55,u3 data cu3 I I data I u3 u3 cu3 data data
+98,0.6611741,0.6333333333333333,u3 data cu3 I I data I u3 u3 cu3 data data
+99,0.68329173,0.5333333333333333,u3 data cu3 I I data data data u3 cu3 data data
+100,0.66881025,0.65,u3 data cu3 I I data data data u3 cu3 data data
+101,0.6885634,0.5666666666666667,u3 data cu3 I I data data data u3 cu3 data data
+102,0.6686944,0.6166666666666667,u3 data cu3 I I data data data u3 cu3 data data
+103,0.6874307,0.5833333333333334,u3 data cu3 I I data data data u3 cu3 data data
+104,0.6942328,0.5833333333333334,u3 data cu3 I I data data data u3 cu3 data data
+105,0.6757308,0.6333333333333333,u3 data cu3 I I data data u3 u3 cu3 data data
+106,0.68832946,0.6166666666666667,u3 data cu3 I I data data u3 u3 cu3 cu3 data
+107,0.6588039,0.6166666666666667,u3 data cu3 I I data data u3 u3 cu3 cu3 data
+108,0.6710768,0.6,data data cu3 I I data data u3 u3 cu3 cu3 cu3
+109,0.6988462,0.5833333333333334,data data cu3 I I data data u3 u3 cu3 cu3 cu3
+110,0.6674868,0.6,data data cu3 I I data data u3 u3 cu3 cu3 cu3
+111,0.6705637,0.6,u3 data cu3 I I data data u3 u3 cu3 cu3 cu3
+112,0.6576901,0.6,u3 data cu3 I I data data data u3 cu3 cu3 cu3
+113,0.66843104,0.6666666666666666,data data cu3 I I data data data u3 cu3 cu3 cu3
+114,0.63027686,0.6333333333333333,data data cu3 I I data data data u3 cu3 cu3 cu3
+115,0.7042216,0.5333333333333333,data data cu3 I I data data data u3 cu3 cu3 cu3
+116,0.6855765,0.6,data data cu3 I I data data data u3 cu3 cu3 cu3
+117,0.68182874,0.6,u3 data cu3 I I data data data u3 cu3 cu3 cu3
+118,0.69680727,0.5666666666666667,u3 data cu3 I I data data data u3 cu3 cu3 cu3
+119,0.6494928,0.65,u3 data cu3 I I data data cu3 u3 I cu3 cu3
+120,0.6619803,0.6666666666666666,u3 data cu3 I I data data cu3 u3 I cu3 cu3
+121,0.6395948,0.65,u3 data cu3 I I data data cu3 u3 I cu3 cu3
+122,0.699526,0.5166666666666667,u3 data cu3 I I data data cu3 u3 I cu3 cu3
+123,0.6656282,0.55,u3 data cu3 I I data data cu3 u3 I cu3 cu3
+124,0.65882534,0.6333333333333333,u3 data cu3 I I data data cu3 u3 I cu3 cu3
+125,0.67231876,0.6,u3 data cu3 I I data data cu3 u3 I cu3 cu3
+126,0.6833745,0.5833333333333334,u3 data cu3 I I data data cu3 u3 I cu3 cu3
+127,0.6583418,0.65,u3 data cu3 I I data data cu3 u3 I cu3 cu3
+128,0.6890721,0.5666666666666667,u3 data cu3 I I data data cu3 u3 I cu3 cu3
+129,0.68517303,0.55,u3 data cu3 I I data data cu3 u3 I cu3 cu3
+130,0.66961133,0.6333333333333333,u3 data cu3 I I data data u3 u3 I cu3 cu3
+131,0.6750939,0.6166666666666667,u3 data cu3 I I data data u3 u3 I cu3 cu3
+132,0.68555903,0.6333333333333333,u3 data cu3 I I data data u3 u3 I cu3 cu3
+133,0.662777,0.6166666666666667,u3 data cu3 I I data data u3 u3 I cu3 cu3
+134,0.6965469,0.5666666666666667,u3 data cu3 I I data data u3 u3 I cu3 cu3
+135,0.66770834,0.6166666666666667,u3 data cu3 I I data data u3 u3 I cu3 cu3
+136,0.68347263,0.55,u3 data cu3 I I data data u3 u3 I cu3 cu3
+137,0.66793305,0.65,u3 data cu3 I I data data u3 u3 I cu3 cu3
+138,0.6297207,0.65,u3 data cu3 I I data data u3 u3 I u3 cu3
+139,0.6567158,0.6333333333333333,u3 data cu3 I I data data u3 u3 I u3 cu3
+140,0.67298347,0.5333333333333333,u3 data cu3 I I data data u3 u3 I u3 cu3
+141,0.69917756,0.6,u3 data cu3 I I data data u3 u3 I u3 cu3
+142,0.67654246,0.5833333333333334,u3 data cu3 I I data data u3 u3 I u3 cu3
+143,0.68588096,0.6166666666666667,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+144,0.6687447,0.65,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+145,0.62745583,0.7166666666666667,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+146,0.68441206,0.5666666666666667,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+147,0.69226456,0.6166666666666667,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+148,0.673886,0.6333333333333333,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+149,0.7091655,0.5333333333333333,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+150,0.66798526,0.6166666666666667,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+151,0.6865261,0.6333333333333333,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+152,0.69726074,0.5833333333333334,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+153,0.6874122,0.6,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+154,0.6819755,0.5833333333333334,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+155,0.6756956,0.5666666666666667,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+156,0.6838112,0.6,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+157,0.6679823,0.6333333333333333,u3 data cu3 I I data data u3 u3 cu3 u3 cu3
+158,0.70570064,0.5666666666666667,u3 data cu3 I I data data u3 u3 I u3 cu3
+159,0.7105065,0.6,u3 data cu3 I I data data u3 u3 I u3 cu3
+160,0.63673604,0.6833333333333333,u3 data cu3 I I data data u3 u3 I u3 cu3
+161,0.64396876,0.6,u3 data cu3 I I data data u3 u3 I cu3 cu3
+162,0.69302374,0.6,u3 data cu3 I I data data u3 u3 I cu3 cu3
+163,0.6810992,0.5666666666666667,u3 data cu3 I I data data u3 u3 cu3 cu3 cu3
+164,0.6942845,0.6,u3 data cu3 I I data data u3 u3 cu3 cu3 cu3
+165,0.64721805,0.6,u3 data cu3 I I data data u3 u3 I cu3 cu3
+166,0.6551785,0.6,u3 data cu3 I I data data u3 u3 I u3 cu3
+167,0.6969816,0.5666666666666667,u3 data cu3 I I data data u3 u3 I u3 cu3
+168,0.6986392,0.55,u3 data cu3 I I data data u3 u3 I u3 cu3
+169,0.6540581,0.6,u3 data cu3 I I data data u3 u3 I u3 cu3
+170,0.6726582,0.6166666666666667,u3 data cu3 I I data data u3 u3 I u3 cu3
+171,0.6886658,0.55,u3 data cu3 I I data data u3 u3 I u3 cu3
+172,0.70868504,0.55,u3 data cu3 I I data data u3 u3 I u3 cu3
+173,0.68557984,0.5666666666666667,u3 data cu3 I I data data u3 u3 I u3 cu3
+174,0.69843405,0.6666666666666666,u3 data cu3 I I data data u3 u3 I u3 cu3
+175,0.65577996,0.6166666666666667,u3 data cu3 I I data data u3 u3 I u3 cu3
+176,0.682994,0.55,u3 data cu3 I I data data u3 u3 I u3 cu3
+177,0.69512916,0.55,u3 data cu3 I I data data u3 u3 I u3 cu3
+178,0.69428146,0.5833333333333334,u3 data cu3 I I data data u3 u3 I u3 cu3
+179,0.68918204,0.5666666666666667,u3 data cu3 I I data data u3 u3 I u3 cu3
+180,0.67796767,0.5666666666666667,u3 data cu3 I I data data u3 u3 I u3 cu3
+181,0.6820917,0.6166666666666667,u3 data cu3 I I data data u3 u3 I u3 cu3
+182,0.6587752,0.6333333333333333,u3 data cu3 I I data data u3 u3 I u3 cu3
+183,0.68495643,0.6,u3 data cu3 I I data data u3 u3 I u3 cu3
+184,0.70319164,0.6166666666666667,u3 data cu3 I I data data u3 u3 I u3 cu3
+185,0.695173,0.55,u3 data cu3 I I data data u3 u3 I u3 cu3
+186,0.70033365,0.5166666666666667,u3 data cu3 I I data cu3 u3 u3 I u3 cu3
+187,0.69411814,0.5666666666666667,u3 data cu3 I I data cu3 u3 u3 I u3 cu3
+188,0.68433124,0.6333333333333333,u3 data cu3 I I data cu3 u3 u3 I u3 cu3
+189,0.6921123,0.65,u3 data cu3 I cu3 data cu3 u3 u3 I u3 cu3
+190,0.65293205,0.65,u3 data cu3 I cu3 data cu3 u3 u3 I u3 cu3
+191,0.6987133,0.5166666666666667,u3 data cu3 I cu3 data cu3 u3 u3 I u3 cu3
+192,0.67384124,0.6833333333333333,u3 data cu3 I cu3 data cu3 u3 u3 I u3 cu3
+193,0.68603903,0.55,u3 data cu3 I cu3 data cu3 u3 u3 I u3 cu3
+194,0.6924477,0.6166666666666667,u3 data cu3 I cu3 data cu3 u3 u3 I u3 cu3
+195,0.66733545,0.65,u3 data cu3 I cu3 data cu3 u3 u3 I u3 cu3
+196,0.67594516,0.6333333333333333,u3 data cu3 I cu3 data cu3 u3 u3 I u3 cu3
+197,0.7008242,0.55,u3 data cu3 I cu3 data cu3 u3 u3 I u3 cu3
+198,0.65602434,0.6666666666666666,u3 data cu3 I cu3 data cu3 u3 u3 I u3 cu3
+199,0.6663732,0.6166666666666667,u3 data cu3 I cu3 data cu3 u3 u3 I u3 cu3

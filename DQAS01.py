@@ -207,9 +207,9 @@ def DQAS_search(stp, nnp, epoch, enable):
 
 if __name__ == '__main__':
     args = Arguments()
-    p = 20
+    p = 12
 
-    repeat = 4
+    repeat = 1
 
     # op_pool = ['rx', 'ry', 'rz', 'xx', 'yy', 'zz', 'u3', 'cu3']
     op_pool = ['I', 'data', 'u3', 'cu3', 'I', 'data', 'u3', 'cu3']
@@ -269,8 +269,8 @@ if __name__ == '__main__':
                     cur_loss = [h.loss for h in history[-20:]]
                     last_loss = [h.loss for h in history[-40:-20]]
                     eta = abs(sum(cur_loss) / len(cur_loss) - sum(last_loss) / len(last_loss))
-                    if eta < 0.001:
-                        raise Exception("stop iteration.")
+                    # if eta < 0.001:
+                    #     raise Exception("stop iteration.")
             finally:
                 with open('step.history', 'wb') as f:
                     pickle.dump((stp, nnp, history, edges), f)
