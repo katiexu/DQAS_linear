@@ -111,6 +111,8 @@ def dqas_translator(chosen_ops, edges, repeat, trainable, enable):
                         updated_design['rot' + str(r) + str(layer) + str(i)] = 'RZ'
                     elif chosen_ops[layer] == 'u3':
                         updated_design['rot' + str(r) + str(layer) + str(i)] = 'U3'
+                    elif chosen_ops[layer] == 'data':
+                        updated_design['rot' + str(r) + str(layer) + str(i)] = 'data'
                     else:
                         updated_design['rot' + str(r) + str(layer) + str(i)] = 'N/A'
                 else:
@@ -311,14 +313,17 @@ class TQLayer(tq.QuantumModule):
         qdev = tq.QuantumDevice(n_wires=self.n_wires, bsz=bsz, device=x.device)
 
         # encode input image with '4x4_ryzxy' gates
-        for j in range(self.n_wires):
-            self.uploading[j](qdev, x[:, j])
+        # for j in range(self.n_wires):
+        #     self.uploading[j](qdev, x[:, j])
 
         for r in range(self.design['repeat']):
             for layer in range(self.design['n_layers']):
                 for j in range(self.n_wires):
                     if self.design['rot' + str(r) + str(layer) + str(j)] != 'N/A':
-                        self.gates[str(r) + str(layer) + str(j)](qdev, wires=j)
+                        if self.design['rot' + str(r) + str(layer) + str(j)] == 'data':
+                            self.uploading[j](qdev, x[:, j])
+                        else:
+                            self.gates[str(r) + str(layer) + str(j)](qdev, wires=j)
                         # self.gates[j + layer * self.n_wires + (self.design['n_layers'] * self.n_wires * r)](qdev, wires=j)
                 for edge_idx in range(self.n_wires):
                     if self.design['enta' + str(r) + str(layer) + 'edge' + str(edge_idx)] != 'N/A':

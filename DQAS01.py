@@ -90,8 +90,18 @@ def qaoa_block_vag(gdata, ops, nnp, preset, repeat, enable):
     design['edges'] = edges
 
     val_loss, model_grads, test_acc = dqas_Scheme(design, 'MNIST', 'init', 5)
+
+    # 'data' and 'I' gates inherit previous network parameters; 'u3' and 'cu3' gates update parameters.
+    model_grads_filled = []
+    for i in range(len(chosen_ops)):
+        if chosen_ops[i] in ('I', 'data'):
+            model_grads_filled.append([pnnp[i][0].tolist() * 3])
+        else:
+            model_grads_filled.append(model_grads[0])
+            model_grads = model_grads[1:]
+
     val_loss = tf.constant(val_loss, dtype=dtype)
-    gr = tf.constant(model_grads, dtype=dtype)
+    gr = tf.constant(model_grads_filled, dtype=dtype)
     gr = design['pnnp'].with_values(gr)
 
     gmatrix = np.zeros_like(nnp)
@@ -99,6 +109,7 @@ def qaoa_block_vag(gdata, ops, nnp, preset, repeat, enable):
         gmatrix[j, repeated_preset[j]] = gr[j][0]
 
     gmatrix = tf.constant(gmatrix)
+
     return val_loss, gmatrix, test_acc
 
 
@@ -198,10 +209,10 @@ if __name__ == '__main__':
     args = Arguments()
     p = 20
 
-    repeat = 1
+    repeat = 4
 
     # op_pool = ['rx', 'ry', 'rz', 'xx', 'yy', 'zz', 'u3', 'cu3']
-    op_pool = ['u3', 'cu3', 'u3', 'cu3', 'u3', 'cu3', 'u3', 'cu3']
+    op_pool = ['I', 'data', 'u3', 'cu3', 'I', 'data', 'u3', 'cu3']
     # op_pool = [] * 15
     # op_pool = ['rx_ry', 'rx_rz', 'rx_xx', 'rx_yy', 'rx_zz',
     #            'ry_rx', 'ry_rz', 'ry_xx', 'ry_yy', 'ry_zz',
