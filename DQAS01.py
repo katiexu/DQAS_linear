@@ -212,7 +212,7 @@ if __name__ == '__main__':
     repeat = 1
 
     # op_pool = ['rx', 'ry', 'rz', 'xx', 'yy', 'zz', 'u3', 'cu3']
-    op_pool = ['I', 'data', 'u3', 'cu3', 'I', 'data', 'u3', 'cu3']
+    op_pool = ['I', 'data', 'u3', 'cu3']
     # op_pool = [] * 15
     # op_pool = ['rx_ry', 'rx_rz', 'rx_xx', 'rx_yy', 'rx_zz',
     #            'ry_rx', 'ry_rz', 'ry_xx', 'ry_yy', 'ry_zz',
